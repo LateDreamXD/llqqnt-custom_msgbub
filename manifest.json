@@ -1,0 +1,28 @@
+{
+	"manifest_version": 4,
+	"type": "extension",
+	"name": "自定义聊天气泡",
+	"slug": "custom_msgbub",
+	"description": "美化你的聊天气泡 ~(￣▽￣)~",
+	"version": "0.1.0-pre",
+	"icon": null,
+	"thumb": null,
+	"authors": [{
+		"name": "晚梦",
+		"link": "https://latedream.us.kg/about/"
+	}],
+	"platform": ["win32", "linux", "darwin"],
+	"injects": {
+		"renderer": "./renderer/index.js",
+		"main": "./main/index.js",
+		"preload": "./preload/index.js"
+	},
+	"repository": {
+		"repo": "latedreamdev/llqqnt-custom_msgbub",
+		"branch": "main",
+		"release": {
+			"tag": "0.1.0-pre",
+			"file": "custom_msgbub.zip"
+		}
+	}
+}

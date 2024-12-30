@@ -1,0 +1,14 @@
+# yarn
+/node_modules
+/.pnp
+.pnp.js
+.pnp.cjs
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
+# custom_msgbub build
+main/
+preload/
+!src/*
+custom_msgbub.zip

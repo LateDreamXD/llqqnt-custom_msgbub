@@ -1,0 +1,6 @@
+{
+	"enableCMM": true,
+	"sharedBubbleStyle": "border-radius: 16px;",
+	"selfBubbleStyle": "background-color: #f192;",
+	"othersBubbleStyle": "background-color: #696969aa;"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "llqqnt-custom_msgbub",
+  "scripts": {
+    "clean": "node bin/clean.mjs",
+    "build:dev": "tsc",
+    "build:zip": "node bin/buildzip.mjs"
+  },
+  "author": {
+    "name": "迟梦",
+    "email": "latedream_@outlook.com",
+    "url": "https://latedream.us.kg/about/"
+  },
+  "homepage": "https://github.com/latedreamdev/llqqnt-custom_msgbub#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/latedreamdev/llqqnt-custom_msgbub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/latedreamdev/llqqnt-custom_msgbub/issues"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.12",
+    "electron": "33.2.1",
+    "eslint-import-resolver-node": "^0.3.9",
+    "jszip": "^3.10.1",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "yarn@4.5.0",
+  "private": true
+}

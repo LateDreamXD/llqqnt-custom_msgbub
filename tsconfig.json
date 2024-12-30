@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"declaration": false,
+		"outDir": ".",
+		"strict": true,
+		"removeComments": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"types": ["electron"]
+	},
+	"include": ["src"],
+	"exclude": []
+}
